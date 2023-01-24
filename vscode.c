@@ -1,7 +1,8 @@
 #include <stdio.h>
 int i=0;
 int main(void){ 
-for (i=0;i<5;i++)
+while(i<3){ 
 printf("hello %d\n",i) ;
+i++;}
 return 0;
 }
